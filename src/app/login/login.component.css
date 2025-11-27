@@ -1,0 +1,67 @@
+/* Center the login form on the page */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 40px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Page heading */
+  .login-container h2 {
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Input fields */
+  .login-container input[type="email"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border 0.3s;
+  }
+  
+  .login-container input[type="email"]:focus,
+  .login-container input[type="password"]:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  /* Submit button */
+  .login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Optional: small text under form */
+  .login-container p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 15px;
+  }
+  
