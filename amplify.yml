@@ -7,6 +7,7 @@ frontend:
     build:
       commands:
         - npm run build
+        - if [ -f dist/amplify-time-app/browser/index.csr.html ]; then cp dist/amplify-time-app/browser/index.csr.html dist/amplify-time-app/browser/index.html; fi
   artifacts:
     baseDirectory: dist/amplify-time-app/browser
     files:
